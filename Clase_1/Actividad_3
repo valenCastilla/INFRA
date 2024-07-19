@@ -1,0 +1,13 @@
+Han sido contratados por una empresa dedicada a proyectos de Ciencia de Datos para diseñar y planificar un centro
+de datos con recursos propios. La empresa les ha proporcionado la siguiente información inicial:
+• Se cuenta con un presupuesto limitado y se busca minimizar los costos.
+• La empresa planea expandirse en el futuro y desea que el centro de datos sea escalable: ○ 20% de crecimiento anual.
+• El negocio tendrá datos críticos que deben ser almacenados de forma segura: ○ Al menos un sistema de backup local 
+
+Tengan en cuenta los siguientes aspectos:
+• El número de servidores necesarios para manejar la carga de trabajo esperada.
+• Los recursos asociados a esos servidores, ya sea para expandir su rendimiento como para garantizar su correcto funcionamiento.
+• La capacidad y tipo de almacenamiento necesario para los datos críticos de la empresa.
+• Otros recursos necesarios para el centro de datos, como sistemas de enfriamiento, energía y seguridad.
+
+Deberán determinar los requisitos de capacidad y recursos mínimos para el centro de datos de la empresa. 
