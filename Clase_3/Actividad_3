@@ -1,0 +1,13 @@
+1) Usando Packet Tracer: Armar una red usando:
+    - 1 Hub, 3 PCs y conectarlos
+    - Configurar IP y Máscara en cada PC
+    - Enviar paquetes individuales y simultáneos en tiempo real y simulación.
+    - Observe lo que sucede.
+
+2)  Sustituir el Hub por un Switch y repetir la configuración anterior.
+
+3) Agregue un Router conectándolo al Switch:
+    - ¿Qué sucede? ¿Funciona?
+
+4)  Mencione: las conclusiones obtenidas; lo que pudo observar en la práctica, que no fue mencionado en la clase. ¿Hubo algo que le llame 
+la atención o le parezca importante mencionar?.
