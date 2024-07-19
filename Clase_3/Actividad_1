@@ -1,0 +1,18 @@
+1) Abrir la interfaz de comandos (CMD o Terminal)
+    - Obtener la IP de su máquina, máscara de red, gateway, MAC.
+    - Hacer un ping a google.com y a unsam.edu.ar
+    - ¿Qué IP tiene cada uno?
+    - ¿Qué sucede si hace ping a las IP obtenidas? ¿Funciona?
+    - Haga ping a su localhost y vea qué IP obtiene.
+
+2) Averigüe cuál es su dirección IP Pública, usando el navegador (what is my IP).
+    - ¿Qué datos puede ver además de la IP?
+
+3) Use el comando tracert para llegar a unsam.edu.ar
+    - Analice la respuesta obtenida, investigue qué significa lo que obtuvo.
+
+4) Averigue cómo se usa o para qué sirve el comando nslookup. Pruébelo.
+
+5) Mencione las conclusiones obtenidas. ¿hubo algo que le llame la atención o le parezca
+importante mencionar? Explique qué significa cada uno de los valores devueltos por el
+comando ping.
