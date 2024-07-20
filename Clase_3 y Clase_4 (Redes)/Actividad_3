@@ -1,0 +1,13 @@
+1) Descargue e instale el software Packet Tracer: https://www.netacad.com/
+      A- Arme una red usando:
+              - 1 Hub, 4 PCs y conectarlos mediante el HUB.
+              - Configure IPs y Máscara en cada PC (192.168.0.1;192.168.0.2;192.168.0.3;192.168.0.4)
+              - Enviar paquetes individuales y simultáneos en modo simulación.
+              - Observe lo que sucede.
+      B- Sustituya el Hub por un Switch (2950), conectándolo a las PCs y repita los pasos anteriores.
+      C- Divida la red en dos, agregando otro Switch y un Router (1841) que se conecte a los Switches (las dos primeras 
+         PCs deberán estar conectadas a un Switch, y las otras dos al otro Switch.
+              - Aguarde un momento y observe el color de las conexiones.
+              - Encienda y configure cada interfaz del Router en una red distinta (192.168.0.1; 192.168.1.1).
+              - Modifique las IPs de las PCs, de modo que, las primeras dos sean 192.168.0.2 y 192.168.0.3; y las otras dos 192.168.1.2 y 192.168.1.3.
+              - Envíe un paquete desde una PC ubicada en una red, a otra ubicada en la otra red. Si el envío falla, envíe nuevamente otro paquete.
