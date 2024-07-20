@@ -13,3 +13,20 @@ dinero?
 
 
 RESPUESTA: 
+
+
+Mi plan consiste en migrar los datos de los clientes a la nube en un plazo corto. De esta forma, brindaríamos un servicio 
+sin interrupciones, lo cual considero esencial para garantizar la confianza de los clientes. Paralelamente, los empleados 
+actualizarían la infraestructura física para evitar que quede obsoleta y asegurar su uso continuo sin cortes. Este último 
+punto es vital, ya que mantener los racks sin información nos permitiría mejorar de manera mucho más rápida, dado que la 
+mayoría de los técnicos se dedicaría a la actualización y una minoría a la migración de datos hacia la nube.
+
+Después de unos meses, cuando la infraestructura física esté funcionando correctamente, iniciaríamos un proceso para migrar
+nuevamente los datos a nuestros racks. Entendemos la desconfianza de algunos clientes ante la posibilidad de tener sus 
+bases de datos en la nube, pero esta estrategia es necesaria al principio para sentar las bases de una infraestructura robusta.
+
+Una vez logrado este objetivo, planeamos mantener un 70% de los datos de nuestros clientes en nuestra infraestructura 
+física y dejar un 30% de forma virtual. Este enfoque híbrido nos permitirá ofrecer lo mejor de ambos mundos: la seguridad 
+y control de una infraestructura física actualizada, y la flexibilidad y eficiencia de la nube. De esta manera, garantizamos 
+un servicio confiable y seguro, mientras optimizamos nuestros recursos y mejoramos la satisfacción tanto de nuestros clientes
+como de nuestros empleados.
