@@ -8,4 +8,55 @@ en forma de tabla comparativa):
 - Sistema de archivos
 - Aspectos de seguridad
 
-1) Qué factores utilizaría para determinar qué tipo/versión de Sistema Operativo utilizar
+2) Qué factores utilizaría para determinar qué tipo/versión de Sistema Operativo utilizar
+
+
+
+
+RESPUESTA: 
+
+1) Voy a hacer una comparación entre Windows y MacOs. 
+
+
+CARACTERÍSTICAS FUNDAMENTALES: 
+
+  - WINDOWS: Sistema operativo desarrollado por Microsoft. Amplia compatibilidad con software y hardware. Versión de escritorio y servidor.
+  - MACOS: Sistema operativo desarrollado por Apple. Integración estrecha con hardware Apple. Optimizado para ecosistema Apple.
+
+GESTIÓN DE MEMORIA: 
+
+  - WINDOWS: Utiliza un enfoque de paginación para manejar la memoria. Soporta memoria virtual con archivos de intercambio. Gestión de memoria dinámica y basada en prioridades.
+  - MACOS: Usa un sistema de memoria basado en paginación similar. Implementa memoria virtual con un archivo de intercambio en el disco. Optimizado para el hardware específico de Apple.
+
+GESTIÓN DE PROCESOS: 
+
+  - WINDOWS: Gestión basada en un núcleo de procesos multitarea. El Administrador de Tareas permite la supervisión y gestión de procesos.
+  - MACOS: Gestión basada en un núcleo multitarea. El Monitor de Actividad permite la supervisión y gestión de procesos.
+
+
+SISTEMAS DE ARCHIVOS: 
+
+  - WINDOWS: Utiliza NTFS (New Technology File System) por defecto. Compatibilidad con dispositivos externos. 
+  - MACOS: Utiliza APFS (Apple File System) por defecto. APFS ofrece características como encriptación por defecto y gestión avanzada de espacio.
+
+
+ASPECTOS DE SEGURIDAD: 
+
+  - WINDOWS: Incluye Windows Defender para antivirus y protección en tiempo real. Actualizaciones de seguridad a través de Windows Update. 
+  - MACOS: Incluye XProtect y Gatekeeper para seguridad y protección contra malware. Control de acceso basado en permisos y encriptación. 
+
+
+
+
+
+
+
+
+2) En lo personal, a la hora de elegir un SO me centraría en el uso que le daría y la compatibilidad. Hablando en base a mi experiencia, unos meses atras estaba 
+en esta pelea entre comprarme una notebook con Windows o una mac con IOS. Y me termine decantando por Windows por el uso que le daba y la compatibilidad que tiene. 
+Si bien yo tengo otros productos apple y la compatibilidad dentro del entorno IOS es increible, sabía que me iba a generar problemas en caso de querer conectar un 
+dispositivo externo que no sea de este ecosistema. Otro problema puede ser que apple tiene licencias especiales con ciertas aplicaciones, que terminan generando 
+problemas a la hora de bajar apps o archivos desde internet. Y un punto que sí tiene a favor IOs en comparación con Windows es la seguridad y las formas de continuar 
+ante un presunto robo, caracteríticas que Windows no presenta. 
+Pero como dije antes, me centré en el uso que le iba a dar y termine decantando por un producto más flexible en cuanto a compatibilidad e integración con otros sistemas.
+Ni hablar que por un precio relativamente similar me compre un producto Windows mejor que si hubiera elegido una mac. Totalmente contento por la compra :) 
