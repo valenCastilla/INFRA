@@ -1,18 +1,127 @@
 1) Abrir la interfaz de comandos (CMD o Terminal)
-    - Obtener la IP de su máquina, máscara de red, gateway, MAC.
-    - Hacer un ping a google.com y a unsam.edu.ar
-    - ¿Qué IP tiene cada uno?
-    - ¿Qué sucede si hace ping a las IP obtenidas? ¿Funciona?
-    - Haga ping a su localhost y vea qué IP obtiene.
+    A- Obtener la IP de su máquina, máscara de red, gateway, MAC.
+    B- Hacer un ping a google.com y a unsam.edu.ar
+    C- ¿Qué IP tiene cada uno?
+    D- ¿Qué sucede si hace ping a las IP obtenidas? ¿Funciona?
+    E- Haga ping a su localhost y vea qué IP obtiene.
 
 2) Averigüe cuál es su dirección IP Pública, usando el navegador (what is my IP).
-    - ¿Qué datos puede ver además de la IP?
+    A- ¿Qué datos puede ver además de la IP?
 
 3) Use el comando tracert para llegar a unsam.edu.ar
-    - Analice la respuesta obtenida, investigue qué significa lo que obtuvo.
+    A- Analice la respuesta obtenida, investigue qué significa lo que obtuvo.
 
 4) Averigue cómo se usa o para qué sirve el comando nslookup. Pruébelo.
 
 5) Mencione las conclusiones obtenidas. ¿hubo algo que le llame la atención o le parezca
 importante mencionar? Explique qué significa cada uno de los valores devueltos por el
 comando ping.
+
+
+
+
+
+RESPUESTA: 
+
+
+
+
+
+
+1) ¿Cómo obtener la IP de tu máquina? Ir al cmd, escribir "ipconfig" y enter. 
+
+        A- 
+        - IP:  192.168.56.1 
+        - Máscara de Red: 255.255.255.0
+        - Gateway: 192.168.0.1
+        - Mac:  20-0B-74-64-7B-18 
+
+
+        B- PING www.google.com
+        
+        Haciendo ping a www.google.com [172.217.172.68] con 32 bytes de datos:
+        Respuesta desde 172.217.172.68: bytes=32 tiempo=26ms TTL=116
+        Respuesta desde 172.217.172.68: bytes=32 tiempo=32ms TTL=116
+        Respuesta desde 172.217.172.68: bytes=32 tiempo=32ms TTL=116
+        Respuesta desde 172.217.172.68: bytes=32 tiempo=22ms TTL=116
+        
+        Estadísticas de ping para 172.217.172.68:
+            Paquetes: enviados = 4, recibidos = 4, perdidos = 0
+            (0% perdidos),
+        Tiempos aproximados de ida y vuelta en milisegundos:
+            Mínimo = 22ms, Máximo = 32ms, Media = 28ms
+
+
+        B- PING unsam.edu.ar
+        
+        Haciendo ping a unsam.edu.ar [104.26.11.16] con 32 bytes de datos:
+        Respuesta desde 104.26.11.16: bytes=32 tiempo=51ms TTL=55
+        Respuesta desde 104.26.11.16: bytes=32 tiempo=35ms TTL=55
+        Respuesta desde 104.26.11.16: bytes=32 tiempo=452ms TTL=55
+        Respuesta desde 104.26.11.16: bytes=32 tiempo=36ms TTL=55
+        
+        Estadísticas de ping para 104.26.11.16:
+            Paquetes: enviados = 4, recibidos = 4, perdidos = 0
+            (0% perdidos),
+        Tiempos aproximados de ida y vuelta en milisegundos:
+            Mínimo = 35ms, Máximo = 452ms, Media = 143ms
+        
+        C- Google tiene ip 172.217.172.68     
+        C- Unsam tiene ip 104.26.11.16
+
+
+        D- Si hago un Ping a las Ip de cada una obtengo la misma respuesta. Se ve que ir a una dirección de página web o a una IP es lo mismo. 
+
+
+        E- PING 127.0.0.1
+        
+        Haciendo ping a 127.0.0.1 con 32 bytes de datos:
+        Respuesta desde 127.0.0.1: bytes=32 tiempo<1m TTL=128
+        Respuesta desde 127.0.0.1: bytes=32 tiempo<1m TTL=128
+        Respuesta desde 127.0.0.1: bytes=32 tiempo<1m TTL=128
+        Respuesta desde 127.0.0.1: bytes=32 tiempo<1m TTL=128
+        
+        Estadísticas de ping para 127.0.0.1:
+            Paquetes: enviados = 4, recibidos = 4, perdidos = 0
+            (0% perdidos),
+        Tiempos aproximados de ida y vuelta en milisegundos:
+            Mínimo = 0ms, Máximo = 0ms, Media = 0ms
+        
+        E- PING localhost
+        
+        Haciendo ping a ASUS-VALEN [::1] con 32 bytes de datos:
+        Respuesta desde ::1: tiempo<1m
+        Respuesta desde ::1: tiempo<1m
+        Respuesta desde ::1: tiempo<1m
+        Respuesta desde ::1: tiempo<1m
+        
+        Estadísticas de ping para ::1:
+            Paquetes: enviados = 4, recibidos = 4, perdidos = 0
+            (0% perdidos),
+        Tiempos aproximados de ida y vuelta en milisegundos:
+            Mínimo = 0ms, Máximo = 0ms, Media = 0ms
+
+
+2) Mi IP pública es 201.231.244.195 y también puedo ver una ubicación aprox. 
+
+3) Tracert unsam.edu.ar determinar la ruta que toma un paquete de protocolo de Internet (IP) para alcanzar su destino.
+
+Traza a la dirección unsam.edu.ar [104.26.10.16]
+sobre un máximo de 30 saltos:
+
+  1     9 ms     6 ms    15 ms  192.168.0.1
+  2     *        *        *     Tiempo de espera agotado para esta solicitud.
+  3     *        *        *     Tiempo de espera agotado para esta solicitud.
+  4     *        *        *     Tiempo de espera agotado para esta solicitud.
+  5     *        *        *     Tiempo de espera agotado para esta solicitud.
+  6     *        *        *     Tiempo de espera agotado para esta solicitud.
+  7     *        *        *     Tiempo de espera agotado para esta solicitud.
+  8    19 ms    22 ms    18 ms  104.26.10.16
+
+
+4) El comando nslookup nos ayuda a encontrar la dirección IP de un equipo determinado o realizar una búsqueda DNS inversa (es decir, 
+encontrar el nombre de dominio de una determinada dirección IP)
+
+
+5) Me resulta increible ver cómo mi computadore se puede conectar a la página de la unsam y ver los saldos y por donde pasa. Cómo 
+también ver por donde se dirige hasta llegar a la página de google. Es muy interesante. 
