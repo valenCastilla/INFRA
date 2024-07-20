@@ -1,11 +1,138 @@
 1. Averigüe qué es ElephantSQL, PlanetScale y para qué sirven.
-
 2. ¿Qué son Freshping, Rollbar y New Relic? ¿qué utilidad cree que podrían tener?
-
 3. Investigue al menos tres herramientas de Analytics, preferentemente gratuitas.
-
 4. ¿A qué hacen referencia las siglas CI/CD? Desarrolle brevemente y exponga cuáles son sus ventajas y por qué se utiliza.
-
 5. Investigue qué es Zoho e ImprovMX y cuál es su uso. ¿Cuándo usaría alguna de estas herramientas?
-
 6. Explique brevemente cuáles son los usos de Cloudflare y FreeDNS.
+
+
+
+
+
+RESPUESTA: 
+
+
+1) Averigüe qué es ElephantSQL, PlanetScale y para qué sirven.
+
+---- ElephantSQL  ----
+Es un servicio de base de datos en la nube que se especializa en PostgreSQL, un sistema de gestión de bases de datos relacional de código abierto. Las 
+prinicpales características es su sensillez y accesibilidad, y que se puede utilizar sin tener ina infraestructura subyacente. 
+
+Sirve para crear instancias en la base de datos PostgreSQL de forma rápida, permitiendo a los desarrolladores y equipos de operaciones centrarse en la 
+creación y mantenimiento de aplicaciones en lugar de gestionar la infraestructura de la base de datos.
+
+
+
+---- PlanetScale  ----
+Es una plataforma de base de datos en la nube que se especializa en la escalabilidad y alta disponibilidad de bases de datos MySQL. Construida sobre
+el proyecto de código abierto Vitess, que fue desarrollado por YouTube para manejar la escalabilidad de MySQL. 
+
+
+Se usa principalmente para gestionar bases de datos MySQL y es ideal para aquellas empresas que necesitan manejar grandes volúmenes de datos y tráfico, 
+garantizando alta disponibilidad y rendimiento sin la complejidad de gestionar la infraestructura subyacente.
+
+
+---------
+2) ¿Qué son Freshping, Rollbar y New Relic? ¿qué utilidad cree que podrían tener?
+
+FRESHPING: Es una herramienta de monitoreo de disponibilidad de sitios web y aplicaciones desarrollada por Freshworks. Con ella podriamos hacer un 
+seguimiento del tiempo de actividad, el rendimiento y disponibilidad de un sitio web. Con esta información podemos encontrar patrones y soluciones 
+a posibles problemas en un futuro. Incluso cuando el servicio no está disponible tiene la posibilidad de enviarnos notificaciones. 
+
+Ideal para mantener un alto tiempo de actividad y responder rápidamente a interrupciones del servicio, mejorando la experiencia del usuario final.
+
+
+ROLLBAR: Es una herramienta de monitoreo y notificación de errores en tiempo real para aplicaciones. Nos facilita la detección, el seguimiento y la 
+corrección de errores en el código, inlcuso hace un seguimiento más exhaustivo para detectar la raiz del error. 
+
+Esencial para los equipos de desarrollo que buscan mejorar la calidad del código y minimizar el impacto de errores en producción.
+
+
+NEW RELIC: Es una plataforma de monitoreo y observabilidad de aplicaciones que proporciona una visión completa del rendimiento de aplicaciones y la 
+infraestructura. Permite a los desarrolladores y administradores de sistemas monitorear el rendimiento de aplicaciones en tiempo real, identificando 
+cuellos de botella y problemas de rendimiento. Proporciona dashboards personalizados para visualizar datos de rendimiento y métricas clave.
+
+Proporciona una visión integral de aplicaciones e infraestructuras, ayudando a optimizar el rendimiento y a identificar y resolver problemas de manera proactiva.
+
+
+
+---------
+3) Investigue al menos tres herramientas de Analytics, preferentemente gratuitas.
+
+- GOOGLE ANALYTICS: Con google analytics podemos hacer un análisis sobre las paginas web. Detectar cómo es el tráfico en ellas (cantidad de visitantes, 
+duración de las sesiones, etc), el comportamiento de los usuarios y el rendimiento de las campañas de marketing. Nos brinda informes personalizados con 
+la información que el usuario considera importante.
+
+- MATOMO: Matomo es una plataforma de análisis de código abierto donde nos brinda un análisis web detallado, con el control total de estos datos. Nos brinda
+informes sobre el comportamiento de los usuarios y permite hacer un seguimiento de diferentes sitios web. Buena opción para empresas que priorizan la privacidad 
+de los datos.
+
+- MICROSOFT POWER BI: Es una herramienta de visualización y análisis de datos que permite crear informes y dashboards interactivos proveniente de diferentes
+fuentes de datos como bases de datos SQL, hojas de cálculo, y servicios en la nube. Crea gráficos, tablas y otros elementos visuales para interpretar datos 
+de manera efectiva.
+
+
+-------- 
+4) ¿A qué hacen referencia las siglas CI/CD? Desarrolle brevemente y exponga cuáles son sus ventajas y por qué se utiliza.
+
+Las siglas CI/CD hacen referencia a Integración Continua (Continuous Integration) y Despliegue Continuo (Continuous Deployment). 
+Estos son enfoques de desarrollo de software que buscan mejorar la eficiencia y la calidad del proceso de desarrollo mediante la automatización.
+
+
+INTEGRACIÓN CONTINUA (CI)
+La Integración Continua se refiere al proceso de integrar cambios en el código fuente en un repositorio compartido varias veces al día. Cada integración 
+es verificada mediante una construcción automática y pruebas para detectar errores lo antes posible.
+
+Ventajas: 
+- Los errores se detectan rápidamente, lo que agiliza su resolución.
+- Fomenta una revisión constante del código, lo que contribuye a una mayor calidad del software.
+- Las integraciones frecuentes evitan problemas grandes que pueden surgir de cambios acumulados.
+
+
+DESPLIEGUE CONTINUO (CD)
+La Entrega Continua es la práctica de automatizar la entrega del software a entornos de producción o pre-producción de forma frecuente y confiable. 
+Permite que las actualizaciones se entreguen a los usuarios con una mínima intervención manual.
+
+Ventajas: 
+- Las actualizaciones pueden ser liberadas más rápidamente y de manera más segura. 
+- Permite que las nuevas versiones de software se publiquen automáticamente sin intervención manual. 
+- Proporciona retroalimentación inmediata a los desarrolladores sobre el impacto de sus cambios en el entorno de producción.
+
+
+
+--------- 
+5) Investigue qué es Zoho e ImprovMX y cuál es su uso. ¿Cuándo usaría alguna de estas herramientas?
+
+- ZOHO: Es una suite de aplicaciones empresariales en la nube que ofrece una amplia gama de herramientas para la gestión de negocios. Incluye aplicaciones 
+para CRM (Customer Relationship Management), correo electrónico, colaboración en equipo, gestión de proyectos, finanzas, y más.
+
+La usuaría en mi emprendimiento personal para poder optimizar mi tiempo. Con ella le podría responder a futuros clientes de forma automática, gestional mi
+capital para tener la contabilidad al día y potenciarla y mucho más.
+
+
+- IMPROVMX: es un servicio de correo electrónico que permite redirigir correos electrónicos enviados a un dominio personalizado a direcciones de correo 
+electrónico existentes (por ejemplo, Gmail o Outlook). Ideal para empresas o personas que desean usar una dirección de correo electrónico personalizada 
+(como info@tudominio.com) y reenviar estos correos a una cuenta existente sin tener que gestionar un servidor de correo.
+
+La podría implementar en mi emprendimiento. No sabia de esta herramienta y pense que eran solo pagas estos mails de este tipo. Esta muy bueno para añadirle 
+seriedad a un comunicado o a un mail para alguien en específico. 
+
+
+
+--------
+6) Explique brevemente cuáles son los usos de Cloudflare y FreeDNS.
+
+
+- CLOUDFLARE: Es una plataforma de servicios de infraestructura en la nube que ofrece una variedad de soluciones para mejorar el rendimiento, la seguridad
+y la fiabilidad de los sitios web y aplicaciones. Garantiza que los sitios web permanezcan disponibles incluso durante ataques masivos. Mejora la velocidad 
+de carga de las páginas y reduce la carga en el servidor de origen. Aumenta la seguridad al filtrar el tráfico malicioso antes de que llegue al servidor.
+
+
+- FREEDNS: Es un servicio que ofrece la gestión gratuita de nombres de dominio y servicios de DNS (Sistema de Nombres de Dominio). Permite a los usuarios configurar 
+y administrar los registros DNS de sus dominios. Facilita la redirección del tráfico web y la configuración de servicios de correo electrónico asociados con
+el dominio. Simplifica la gestión de múltiples dominios o URLs. Ideal para personas o pequeñas empresas que buscan una solución económica para la gestión de DNS.
+
+
+Cloudflare se centra en mejorar la seguridad, el rendimiento y la fiabilidad de sitios web y aplicaciones, mientras que FreeDNS proporciona herramientas 
+para la gestión gratuita y básica de registros DNS. Ambos servicios son útiles en diferentes contextos: Cloudflare para proteger y optimizar la 
+infraestructura web y FreeDNS para gestionar la resolución de nombres de dominio.
