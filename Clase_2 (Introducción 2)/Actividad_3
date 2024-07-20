@@ -4,3 +4,89 @@ ACTIVIDAD 2: Virtualización:
 2) Mencione las diferencias entre emulación, simulación y virtualización.
 3) ¿Qué factores utilizaría para determinar cuándo utilizar Servidores Físicos, Máquinas virtuales o Contenedores? Mencione ventajas y desventajas de cada uno.
 4) Averigüe cuál es la participación en el mercado de los principales proveedores de software de Virtualización y Contenedores. Puede incluir gráficos.
+
+
+
+
+
+RESPUESTA: 
+
+
+1) Mencione y describa brevemente las características principales de al menos 3 Hipervisores de Tipo 1 y Tipo 2.
+
+3 Hipervisores de Tipo 1: 
+
+    - VMware vSphere/ESXi: Asegura la disponibilidad de máquinas virtuales (VMs) en caso de fallos de hardware. Permite la migración en caliente de VMs entre hosts sin tiempo de inactividad.
+    - Microsoft Hyper-V: Permite la migración en caliente de VMs sin interrupción del servicio. Proporciona redes virtuales flexibles y seguras.
+    - KVM (Kernel-based Virtual Machine): KVM se integra con el kernel de Linux, permitiendo su uso como hipervisor. Ofrece un rendimiento casi nativo y es altamente escalable.
+
+
+3 Hipervisores de Tipo 2: 
+    
+    - VMware Workstation: Permite la ejecución de VMs creadas en otros productos VMware. Soporta la creación de redes virtuales complejas.
+    - Oracle VirtualBox: Soporta la creación y gestión de snapshots de VMs. Proporciona mejoras de rendimiento y usabilidad para sistemas operativos invitados. Disponible en Windows, macOS, Linux y Solaris.
+    - Parallels Desktop: Permite ejecutar aplicaciones Windows directamente en el escritorio de macOS. Soporta una amplia gama de sistemas operativos invitados.
+
+
+
+
+2) Mencione las diferencias entre emulación, simulación y virtualización.
+
+La emulación replica hardware en software, permitiendo ejecutar software en un entorno diferente al original, pero con mayor sobrecarga. La simulación modela el
+comportamiento de un sistema SIN REPLICAR el hardware exacto, usada para análisis y estudios de sistemas complejos. La virtualización crea versiones virtuales
+de recursos físicos, como hardware o sistemas operativos, permitiendo ejecutar múltiples entornos en un solo hardware físico con eficiencia y flexibilidad.
+
+
+
+
+3) ¿Qué factores utilizaría para determinar cuándo utilizar Servidores Físicos, Máquinas virtuales o Contenedores? Mencione ventajas y desventajas de cada uno.
+
+A la hora de elegir una entre estas 3 herramientas yo me centraría en el rendimiento y en lo que pretendo que haga en un futuro, cómo sera la escalabilidad para poder
+mejorar mi producto, cómo se llevará a cabo la gestión o el mantenimiento del mismo y la qué tipo de seguridad me da cada uno con respecto al resguardo de los datos. 
+Esos serían los factores que tendria en cuenta para mi elección. 
+
+
+SERVIDORES FÍSICOS: 
+    - VENTAJAS: Buena para aplicaciones con requisitos específicos de hardware. Menos dependencias de software, reduciendo problemas de compatibilidad. Aislamiento total y seguridad dedicada.
+    - DESVENTAJAS: Costoso y menos flexible. Escalibilidad limitada. Actualizaciones y mantenimiento requieren tiempo de inactividad.
+
+
+
+MAQUINAS VIRTUALES: 
+    - VENTAJAS: Fácil de escalar y replicar. Adecuado para entornos de desarrollo y pruebas. Aislamiento fuerte entre VMs, reduciendo riesgos de seguridad entre entornos.
+    - DESVENTAJAS: Mayor uso de recursos en comparación con contenedores. Requiere administración del hipervisor y del SO invitado. Aislamiento no tan fuerte como servidores físicos y mayor superficie de ataque debido a múltiples SOs.
+
+
+
+CONTENEDORES: 
+    - VENTAJAS: Ligereza y rapidez en el despliegue. Excelente rendimiento en aplicaciones distribuidas y microservicios. Escalabilidad extremadamente flexible. 
+    - DESVENTAJAS: Menor rendimiento en comparación con VMs en casos de uso intensivo de recursos. Dependencia de la compatibilidad del sistema operativo host. Requiere conocimiento específico de gestión de contenedores
+
+
+
+
+4) Averigüe cuál es la participación en el mercado de los principales proveedores de software de Virtualización y Contenedores. Puede incluir gráficos.
+
+
+Los principales proveedores de software de virtualización son:  (participación del mercado entre comillas, con datos obtenidos en el 2023)
+    - VMware (40-50 %)
+    - Microsoft Hyper-V (25-30 %) 
+    - KVM (Kernel-based Virtual Machine) (15-20 %)
+    - Citrix XenServer (5-10 %)
+
+
+Los principales proveedores de software de contenedores son:  (participación del mercado entre comillas, con datos obtenidos en el 2023)
+    
+    - Docker (50-60 %)
+    - Kubernets (30-40 %)
+    - Red Hat OpenShift (10-15 %)
+    - Amazon ECS (Elastic Container Service) (5-10 %)
+
+
+
+
+
+
+
+
+
