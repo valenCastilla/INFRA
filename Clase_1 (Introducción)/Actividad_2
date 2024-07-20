@@ -1,6 +1,64 @@
-- ¿Qué es una arquitectura de nube híbrida? ¿Bajo qué circunstancias suele
-usarse?*
-- ¿Qué es el Software as a Service?
-- ¿Cuándo utilizaría IaaS, PaaS o SaaS?
-- Examine al menos 4 productos ofrecidos por AWS, ya sean de Iaas, PaaS o SaaS, y explique brevemente su uso.
+1) ¿Qué es una arquitectura de nube híbrida? ¿Bajo qué circunstancias suele usarse?*
+2) ¿Qué es el Software as a Service?
+3) ¿Cuándo utilizaría IaaS, PaaS o SaaS?
+4) Examine al menos 4 productos ofrecidos por AWS, ya sean de Iaas, PaaS o SaaS, y explique brevemente su uso.
 Luego vea si estos productos también existen en GCP y Microsoft Azure, o si bien, ofrecen un producto similar. Inserte capturas de pantalla para mostrar este último punto
+
+
+
+RESPUESTA: 
+
+
+1) ¿Qué es una arquitectura de nube híbrida? ¿En qué momentos se usa?
+
+Una arquitectura de nube híbrida es una alternativa que combina los servicios de nube pública y privada con infraestructura local. Así la organización 
+obtiene más flexibilidad y puede ser más escalable, mientras se permite tener datos o aplicaciones sensibles de forma física para garantizar la seguridad 
+de estos. Este tipo de arquitectura es ideal para empresas que desean aprovechar lo mejor de ambos entornos, gestionando eficientemente cargas de
+trabajo variadas y adaptándose a cambios en la demanda sin comprometer la seguridad o el control de sus datos críticos.
+
+
+2) ¿Qué es el Software as a Service?
+
+El Software as a Service (SaaS) es un modelo que permite usar aplicaciones de software a través de Internet. En lugar de instalar el software en nuestra
+computadora, se puede acceder al mismo desde internet. El proveedor del servicio se encarga de todo: instalar, actualizar y mantener
+el software, así como asegurar su funcionamiento. 
+Por ejemplo, Documentos Google o Google Sheets son SaaS, donde nostros lo único que debemos hacer es iniciar con nuestra sesión y luego ya podemos utilizar estos
+productos sin instalar ni ejecutar nada. Toda la infraestructura que tienen, la interfaz y el mantenimiento se encargar la misma empresa encargada de brindar
+el producto. El usuario solo debe utilizarla. 
+
+
+3) ¿Cuándo utilizaría IaaS, PaaS o SaaS?
+
+Utilizarías IaaS (Infraestructura como Servicio) cuando necesito controlar y administrar el hardware y los recursos básicos de computación, 
+como servidores y almacenamiento, sin tener que comprar y mantener equipos físicos. 
+Me tiraría a utilizar PaaS (Plataforma como Servicio) cuando necesito desarrollar y desplegar aplicaciones sin preocuparme por la infraestructura subyacente, 
+ya que te proporciona herramientas y plataformas para crear aplicaciones de manera más rápida y sencilla.
+Y me inclinaría por SaaS (Software como Servicio) cuando solo necesito usar las aplicaciones a través de Internet. Cómo en el caso de gmail o documentos google
+sin preocuparme por instalaciones, actualizaciones o mantenimiento, ya que el proveedor se encarga de todo eso. 
+
+
+
+4) Examine al menos 4 productos ofrecidos por AWS, ya sean de Iaas, PaaS o SaaS, y explique brevemente su uso.
+Luego vea si estos productos también existen en GCP y Microsoft Azure, o si bien, ofrecen un producto similar. 
+Inserte capturas de pantalla para mostrar este último punto
+
+
+1. Amazon EC2 (Elastic Compute Cloud) (IaaS): Amazon EC2 proporciona servidores virtuales, o instancias, en la nube. Los usuarios pueden 
+configurar y administrar estas instancias según sus necesidades, como ejecutar aplicaciones y/o almacenar datos.
+    Equivalentes: Google tiene un producto similar que es Google Compute Engine (GCE) y Azure tiene Azure Virtual Machines(VMs)
+
+
+2. Amazon RDS (Relational Database Service) (PaaS): Amazon RDS es un servicio de base de datos relacional que simplifica la configuración, operación y 
+escalabilidad de bases de datos en la nube. Soporta varios motores de base de datos, como MySQL, PostgreSQL y Oracle.
+    Equivalentes: Google tiene Google Cloud SQL y microsoft tiene el tan conocido Azure SQL Database. 
+
+3. Amazon S3 (Simple Storage Service) (IaaS): Amazon S3 es un almacenamiento en la nube para cualquier tipo de datos, permitiendo a los usuarios almacenar y 
+recuperar archivos desde cualquier lugar. Es útil para copias de seguridad, almacenamiento de archivos y contenido estático.
+    Equivalentes: Google tiene un producto llamado Google Cloud Storage y Microsoft tiene Azure Blob Storage. Los tres sirven para lo mismo. 
+
+4. Amazon Aurora (Paas): Por lo que estuve viendo Aurora es es una base de datos relacional compatible con MySQL y PostgreSQL, es parecido a Amazon RDS pero 
+es mucho más potente. Tiene mayor velocidad y permite optimizar mucho el tiempo de trabajo con esta base de datos porque es más simple de utilizar. Tiene una 
+función que no está en todos los paquetes de amazon de recuperación ante desastres ya que la información almacenada esta replicada en diferentes regiones. 
+    Equivalencias: Por lo que estuve viendo, ni Google ni Azure tienen bases de datos tan potentes como Aurora. Me fui informando un poco y es verdad que ambas empresas 
+    tienen productos como Google Cloud ST o Azure Blob pero no tienen tanta potencia en cómputas y seguridad como Aurora. 
+
