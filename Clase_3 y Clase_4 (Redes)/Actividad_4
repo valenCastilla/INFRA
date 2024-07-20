@@ -1,0 +1,5 @@
+1) Investigue qué es el modelo TCP/IP: ¿qué es? Explique brevemente cada una de sus capas. Explique las diferencias y similitudes con el modelo OSI.
+2) ¿Qué son TCP y UDP? ¿En qué capa del modelo funcionan? ¿En qué tipo de conexiones suele utilizarse TCP y en cuáles UDP? De ejemplos.
+3) ¿Qué son y para qué sirven los puertos de red? ¿Cómo se clasifican?
+4) ¿Qué tipo de conexión suele usarse para contactar a un DNS? ¿por qué?
+5) ¿En qué capa del modelo OSI actúa un Firewall?
