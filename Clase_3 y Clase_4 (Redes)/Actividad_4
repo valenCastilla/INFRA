@@ -3,3 +3,56 @@
 3) ¿Qué son y para qué sirven los puertos de red? ¿Cómo se clasifican?
 4) ¿Qué tipo de conexión suele usarse para contactar a un DNS? ¿por qué?
 5) ¿En qué capa del modelo OSI actúa un Firewall?
+
+
+
+RESPUESTA: 
+
+
+1) Investigue qué es el modelo TCP/IP: ¿qué es? Explique brevemente cada una de sus capas. Explique las diferencias y similitudes con el modelo OSI.
+
+El modelo TCP/IP (Transmission Control Protocol/Internet Protocol) es un conjunto de protocolos de red que funcionan como la base de la comunicación en 
+Internet y define cómo los datos deben ser empaquetados, transmitidos y recibidos. 
+
+Este modelo tiene 4 capas y son las siguientes: 
+  - Capa de Acceso a la Red (Network Interface Layer): Esta capa maneja la transmisión de datos entre el dispositivo y la red local. Incluye protocolos 
+  de hardware específicos y los métodos de acceso al medio.
+  - Capa de Internet (Internet Layer): Responsable del direccionamiento lógico y el encaminamiento de los paquetes de datos a través de múltiples redes.
+  El protocolo principal es el IP (Internet Protocol). Encamina los paquetes desde el origen hasta el destino a través de diversas redes interconectadas.
+  - Capa de Transporte (Transport Layer): Asegura que los datos se entreguen sin errores, en secuencia y sin pérdidas. Proporciona comunicación de extremo
+  a extremo y control de flujo de datos. Los protocolos principales son TCP (Transmission Control Protocol) y UDP (User Datagram Protocol).
+  - Capa de Aplicación (Application Layer): Proporciona servicios de red directamente a las aplicaciones del usuario final. Contiene los protocolos de
+  nivel más alto que interactúan directamente con las aplicaciones del usuario. Ejemplos incluyen HTTP, FTP, SMTP, y DNS.
+
+
+
+
+
+-------
+2) ¿Qué son TCP y UDP? ¿En qué capa del modelo funcionan? ¿En qué tipo de conexiones suele utilizarse TCP y en cuáles UDP? De ejemplos.
+
+TCP (Transmission Control Protocol) y UDP (User Datagram Protocol) son protocolos de la capa de transporte en el modelo TCP/IP. Ambos son utilizados
+para enviar datos a través de redes, pero tienen características y usos diferentes.
+
+
+
+
+
+-------
+3) ¿Qué son y para qué sirven los puertos de red? ¿Cómo se clasifican?
+
+Los puertos de red son puntos de conexión lógica que permiten la comunicación entre dispositivos en una red. 
+Funcionan como interfaces a través de las cuales las aplicaciones y los servicios de red pueden enviar y recibir datos.
+Cada puerto está asociado a un número específico que identifica de manera única la aplicación o el servicio que está utilizando el puerto.
+
+
+-------
+4) ¿Qué tipo de conexión suele usarse para contactar a un DNS? ¿por qué?
+
+
+
+
+-------
+5) ¿En qué capa del modelo OSI actúa un Firewall?
+
+
