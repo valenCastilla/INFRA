@@ -45,14 +45,31 @@ Los puertos de red son puntos de conexión lógica que permiten la comunicación
 Funcionan como interfaces a través de las cuales las aplicaciones y los servicios de red pueden enviar y recibir datos.
 Cada puerto está asociado a un número específico que identifica de manera única la aplicación o el servicio que está utilizando el puerto.
 
+Se clasifican en: 
+- Puertos Bien Conocidos: Estos puertos están reservados para servicios y aplicaciones bien conocidos y ampliamente utilizados. 
+Solo los procesos del sistema o aplicaciones privilegiadas suelen utilizarlos.
+- Puertos Registrados: Estos puertos son utilizados por aplicaciones y servicios de usuario que no tienen privilegios de sistema.
+Las organizaciones pueden registrarlos para evitar conflictos.
+- Puertos Dinámicos o Privados: Estos puertos son utilizados de forma temporal por aplicaciones para la comunicación de red. Se asignan
+dinámicamente y no están registrados oficialmente.
+
 
 -------
 4) ¿Qué tipo de conexión suele usarse para contactar a un DNS? ¿por qué?
 
+Generalmente se utiliza el protocolo UDP (User Datagram Protocol). Sin embargo, en ciertos casos, también se puede usar el
+protocolo TCP (Transmission Control Protocol). La mayoría de las consultas DNS utilizan UDP debido a su baja latencia, menor sobrecarga 
+y simplicidad, lo que lo hace adecuado para la alta frecuencia y el rápido tiempo de respuesta requerido por los servicios DNS. TCP se 
+utiliza en situaciones donde se requiere la transmisión fiable de grandes volúmenes de datos o donde la seguridad y la integridad de la 
+conexión son importantes.
 
 
 
 -------
 5) ¿En qué capa del modelo OSI actúa un Firewall?
+
+Los firewalls modernos pueden operar en múltiples capas del modelo OSI para proporcionar una seguridad más completa y robusta. Las capas donde actuan son 
+la Capa de Red (Capa 3), la Capa de Transporte (Capa 4) y la Capa de Aplicación (capa 7).
+Al combinar las capacidades de inspección de diferentes capas, los firewalls pueden ofrecer una protección más efectiva contra una amplia gama de amenazas.
 
 
