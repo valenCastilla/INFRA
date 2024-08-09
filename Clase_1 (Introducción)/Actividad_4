@@ -1,0 +1,78 @@
+Explorar las diferencias claves entre las unidades de procesamiento central (CPU) y las unidades de procesamiento gráfico (GPU), y comprender sus aplicaciones en la arquitectura de computadores moderna. 
+
+1) Investigar las características y funciones de las CPU y las GPU. Deben considerar aspectos como la estructura interna, la velocidad, la memoria, la capacidad de procesamiento y las aplicaciones típicas. 
+2) Crear una tabla comparativa que destaque las diferencias clave entre las CPU y las GPU en función de su investigación. Deben incluir ventajas y desventajas de cada tipo de procesador en diferentes escenarios. 
+3) Elegir al menos 2 de las siguientes industrias e indicar la conveniencia del uso de CPU o GPU para su desarrollo y posterior ejecución de las aplicaciones desarrolladas: 
+    - Industria de Videojuegos 
+    - Procesamiento de Imágenes y Reconocimiento Visual
+
+
+
+
+-----------------------------------
+
+
+RESPUESTA: 
+
+
+1) Y 2) 
+
+CPU: 
+
+- Estructura Interna: Tienen menos núcleos que las GPU pero tienen mayor frecuencia. Puede tener desde 2 hasta 64 núcleos. 
+- Velocidad: Tienen una frecuencia de reloj entre 2.0 a 5.0 GHz (Gigahertz).
+- Memoria: Utiliza la memoria Ram para almacenar datos de forma temporal y de esta manera agiliza los tiempos.
+- Capacidad de Almacenamiento: Su especialidad es ejecutar instrucciones rápidas de forma sucesiva. 
+- Aplicaciones Típicas: La forma más habitual de utilizarla es cuando ejecutamos un sistema operativo, donde se encarga de controlar y coordinar todas las 
+operaciones necesarias para tener un correcto funcionamiento. 
+- Ventajas: 
+      - Tiene diversidad de usos y se puede utilizar para muchas cosas.
+      - Baja latencia en las operaciones, ideal para tareas con una rápida toma de decisiones. 
+      - Alto rendimiento en tareas secuenciales. 
+- Desventajas: 
+      - No es tan eficiente procesando en paralelo. 
+      - Su rendimiento va a ser menor que las GPU en casos de tareas paralelas.
+
+
+
+GPU: 
+
+
+- Estructura Interna: Tienen miles de núcleos mucho más pequeños y simples, en comparación con los núcleos de la CPU. 
+- Velocidad: Las frecuencia de reloj son de 1.0 a 2.0GHz, pero compensan al tener muchos núcleos pequeños funcionando paralelamente.
+- Memoria: Tiene su propia memoria VRam dedicada, esta puede ir desde 2gb y las últimas lanzadas pueden tener 24gb.
+- Capacidad de Almacenamiento: Las GPUs son extremadamente eficientes en ejecutar miles de operaciones en paralelo. 
+- Aplicaciones Típicas: Usadas principalmente para renderizar gráficos, utilizada en videojuegos o aplicaciones de diseño gráfico. En los últimos años, tuvo 
+mayor relevancia a la hora de entrenar modelos de machine learning y procesamiento de datos. 
+- Ventajas: 
+      - Procesamiento paralelo masivo.
+      - Alta eficiencia en tareas gráficas y modelos científicos.
+      - Gran ancho de banda en cuanto  a su memoria. 
+- Desventajas: 
+      - No es ideal para tareas secuenciales o de orden.
+      - Tiene un alto consumo energético. 
+
+
+
+3) 
+
+Industria de Videojuegos 
+
+Dentro de este mundo vamos a necesitar tanto de la CPU como de la GPU en la misma medida. Vamos a necesitar mucho de la CPU en la
+parte técnica relacionado con la lógica del videojuego, el procesamiento y coordinación de tareas en secuencia. Allí es donde el CPU 
+destaca y permite un correcto funcionamiento del mismo. En cuanto a lo estético y lo visual va a predominar la función de la GPU,
+especialista en la producción de gráficos segundo tras segundo permitiéndonos lograr una correcta fluidez en la experiencia. 
+
+
+
+Procesamiento de Imágenes y Reconocimiento Visual
+
+Dentro de esta industria vamos a notar un amplio dominio de la GPU para llevar a cabo las distintas tareas necesarias. En estos casos 
+requerimos distintos mecanismos que permitan analizar una imagen pixel por pixel para luego llevar a cabo un modelo que procese los datos
+obtenidos y pueda arrojar resultados positivos. Y cuando mencionamos modelaje y procesamiento de datos, la GPU va a correr por delante 
+de la CPU. 
+
+
+
+
+
