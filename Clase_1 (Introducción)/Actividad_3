@@ -10,4 +10,26 @@ Tengan en cuenta los siguientes aspectos:
 • La capacidad y tipo de almacenamiento necesario para los datos críticos de la empresa.
 • Otros recursos necesarios para el centro de datos, como sistemas de enfriamiento, energía y seguridad.
 
-Deberán determinar los requisitos de capacidad y recursos mínimos para el centro de datos de la empresa. 
+
+
+----------------------------------------------------------- 
+RESPUESTA: 
+
+
+
+Consideramos que nuestro centro de datos tiene que tener las siguientes características: 
+
+Características técnicas por servidor: 
+  - Procesador: De última generación con 8 cores (Porque nos tiene que servir a largo plazo)
+  - Memoria Ram: Mínimo 64 gb 
+  - GPU:  Si o si va a tener GPU (utilizamos las últimas del mercado para que tengamos ese rendimiento a largo plazo y no haga falta cambiarlas)
+  - Almacenamiento: 3 tb SSD
+
+Cantidad de Servidores y Seguridad: 
+  - Tendría 3-4 servidores para que la información no esté guardado en sólamente uno y así tener mayor seguridad. Si bien puede parecer un número modesto, ,o precisamos más servidores, ya que, siendo un proyecto comenzado, pensando en que es un proyecto escalable, consideramos que con el correr de los años se podrá pasar a la nube, lo que significa que no vamos a necesitar esa cantidad de servidores 
+  - Buscaríamos algún tipo de encriptamiento sobre estos datos. 
+  - Tendríamos un equipo especializado en la parte técnica cómo también en la seguridad de los servidores y de esta manera nos permitirá controlar mejor esos datos. 
+  - Es importante que los servidores estén protegidos y que no sufran daños, con lo cual creemos que es importante implementar tanto sistemas de refrigeración, y un control constante del área de servidores.
+
+
+
